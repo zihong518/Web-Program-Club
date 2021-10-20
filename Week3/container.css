@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+/*  * 字號代表全部的東西 */
+div {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.blue {
+
+  background-color: lightblue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}
