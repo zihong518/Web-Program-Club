@@ -3,7 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,11 +47,11 @@ table {
 	border-spacing: 0;
 }
 /* rwd img css，可當作是 CSS Reset 其中一個 */
-/* 
+
 img{
   max-width: 100%;
   height: auto;
-} */
+}
 
 /* 全域 border box */
 
@@ -62,13 +61,20 @@ img{
 
 
 /* 主體 CSS */
-
 .container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px;
+	display: flex;
+	width: 100px;
+	margin: 0 auto;
+}
+.menu{
+	width: 30%;
+	margin-right: 5%;
+	background: orange;
+	height: 100px;
 }
 
-.header,.main,.footer{
-  margin-bottom: 50px;
+.content{
+	width: 65%;
+	background:blue;
+	height: 100px;
 }

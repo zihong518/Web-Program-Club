@@ -1,0 +1,18 @@
+.container{
+	border:3px solid red;
+    display: flex;
+	flex-wrap:wrap;
+	flex-direction:row ;
+	justify-content:space-around;
+	align-items:flex-end;
+	width:800px;
+	height:1000px;
+  }
+  
+  .item{
+	padding:100px;
+	border:2px dashed black;
+	background:pink;
+	margin:20px;
+	/* width: 100px; */
+  }

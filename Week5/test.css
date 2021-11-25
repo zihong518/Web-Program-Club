@@ -1,0 +1,9 @@
+:root{
+	--main-color: green;
+  }
+p{
+	color: var(--main-color);
+ }
+ h1{
+	 color: var(--main-color);
+ }
